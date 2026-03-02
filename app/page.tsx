@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
 import Hero from "@/components/header/hero";
 
-const Page = () => {
+const Page = async () => {
   return (
     <section className="">
       <Header />
