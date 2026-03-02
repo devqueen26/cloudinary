@@ -1,7 +1,13 @@
-import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/header/logo";
 import { NavMenu } from "@/components/header/nav-menu";
 import { NavigationSheet } from "@/components/header/navigation-sheet";
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/nextjs";
 
 const Header = () => {
   return (
@@ -13,10 +19,20 @@ const Header = () => {
         <NavMenu className="hidden md:block" />
 
         <div className="flex items-center gap-3">
-          <Button className="hidden sm:inline-flex" variant="outline">
-            Sign In
-          </Button>
-          <Button>Get Started</Button>
+          {/* Show the sign-in and sign-up buttons when the user is signed out */}
+          <SignedOut>
+            <SignInButton mode="modal" />
+            <SignUpButton mode="modal">
+              <button className="bg-[#6c47ff] text-white rounded-full font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 cursor-pointer">
+                Sign Up
+              </button>
+            </SignUpButton>
+          </SignedOut>
+
+          {/* Show the user button when the user is signed in */}
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
 
           {/* Mobile Menu */}
           <div className="md:hidden">
