@@ -11,6 +11,7 @@ importers:
       '@clerk/nextjs':
         specifier: ^6.39.0
         version: 6.39.0(next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+<<<<<<< HEAD
       '@dnd-kit/core':
         specifier: ^6.3.1
         version: 6.3.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -23,18 +24,23 @@ importers:
       '@dnd-kit/utilities':
         specifier: ^3.2.2
         version: 3.2.2(react@19.2.3)
+=======
+>>>>>>> 6b6c64936a8dd454f2f0382f57c51e574560d11d
       '@radix-ui/react-visually-hidden':
         specifier: ^1.2.4
         version: 1.2.4(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@supabase/ssr':
         specifier: ^0.8.0
         version: 0.8.0(@supabase/supabase-js@2.98.0)
+<<<<<<< HEAD
       '@tabler/icons-react':
         specifier: ^3.38.0
         version: 3.38.0(react@19.2.3)
       '@tanstack/react-table':
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+=======
+>>>>>>> 6b6c64936a8dd454f2f0382f57c51e574560d11d
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1

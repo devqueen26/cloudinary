@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { ChartAreaInteractive } from "../ui/chart-area-interactive";
 import { DataTable } from "../ui/data-table";
 import { SectionCards } from "../ui/section-cards";
@@ -17,5 +18,9 @@ const page = () => {
       </div>
     </div>
   );
+=======
+const page = () => {
+  return <div>Teachers</div>;
+>>>>>>> 6b6c64936a8dd454f2f0382f57c51e574560d11d
 };
 export default page;

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.39.0",
+<<<<<<< HEAD
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/modifiers": "^9.0.0",
     "@dnd-kit/sortable": "^10.0.0",
@@ -18,6 +19,10 @@
     "@supabase/ssr": "^0.8.0",
     "@tabler/icons-react": "^3.38.0",
     "@tanstack/react-table": "^8.21.3",
+=======
+    "@radix-ui/react-visually-hidden": "^1.2.4",
+    "@supabase/ssr": "^0.8.0",
+>>>>>>> 6b6c64936a8dd454f2f0382f57c51e574560d11d
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.9.0",
     "clsx": "^2.1.1",
